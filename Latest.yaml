@@ -1059,7 +1059,7 @@ actions:
                           data:
                             provider: !input provider_image
                             model: !input model_image
-                            remember: !input use_remember
+                            store_in_timeline: !input use_remember
                             expose_images: !input expose_image
                             use_memory: !input use_memory
                             video_file: '{{ image_file }}'
@@ -1176,7 +1176,7 @@ actions:
                       data:
                         provider: !input provider_clip
                         model: !input model_clip
-                        remember: !input use_remember2
+                        store_in_timeline: !input use_remember2
                         expose_images: !input expose_clip
                         use_memory: !input use_memory2
                         video_file: '{{ video_file }}'
