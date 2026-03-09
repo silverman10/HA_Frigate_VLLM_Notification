@@ -1490,5 +1490,5 @@ variables:
   button3_action2: !input in_button3_action2
   call_number: !input in_call_number
   response_out: "No Response"
-
+mode: parallel
 max: 4
